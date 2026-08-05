@@ -46,15 +46,21 @@ export interface GameCallbacks {
 
 /* ===== Data Level ===== */
 export const LEVELS: LevelData[] = [
-  { id: 1, name: 'Denyut Pertama', bpm: 80,  duration: 30, difficulty: 'Mudah',  density: 0.45, color: 'merah' },
-  { id: 2, name: 'Langkah Cerah',  bpm: 90,  duration: 32, difficulty: 'Mudah',  density: 0.50, color: 'emas' },
-  { id: 3, name: 'Irama Hijau',    bpm: 100, duration: 34, difficulty: 'Mudah',  density: 0.55, color: 'hijau' },
-  { id: 4, name: 'Jalan Langit',    bpm: 110, duration: 36, difficulty: 'Sedang', density: 0.62, color: 'neon' },
-  { id: 5, name: 'Nada Merah',     bpm: 118, duration: 38, difficulty: 'Sedang', density: 0.68, color: 'merah' },
-  { id: 6, name: 'Detak Emas',     bpm: 125, duration: 40, difficulty: 'Sedang', density: 0.72, color: 'emas' },
-  { id: 7, name: 'Lari Hutan',     bpm: 135, duration: 42, difficulty: 'Sulit',  density: 0.78, color: 'hijau' },
-  { id: 8, name: 'Arus Samudra',   bpm: 145, duration: 45, difficulty: 'Sulit',  density: 0.82, color: 'neon' },
-  { id: 9, name: 'Tarian Jari',    bpm: 155, duration: 50, difficulty: 'Sulit',  density: 0.88, color: 'merah' },
+  { id: 1,  name: 'Denyut Pertama',  bpm: 80,  duration: 30, difficulty: 'Mudah',   density: 0.45, color: 'merah' },
+  { id: 2,  name: 'Langkah Cerah',   bpm: 90,  duration: 32, difficulty: 'Mudah',   density: 0.50, color: 'emas' },
+  { id: 3,  name: 'Irama Hijau',     bpm: 100, duration: 34, difficulty: 'Mudah',   density: 0.55, color: 'hijau' },
+  { id: 4,  name: 'Jalan Langit',     bpm: 110, duration: 36, difficulty: 'Sedang',  density: 0.62, color: 'neon' },
+  { id: 5,  name: 'Nada Merah',      bpm: 118, duration: 38, difficulty: 'Sedang',  density: 0.68, color: 'merah' },
+  { id: 6,  name: 'Detak Emas',      bpm: 125, duration: 40, difficulty: 'Sedang',  density: 0.72, color: 'emas' },
+  { id: 7,  name: 'Lari Hutan',      bpm: 135, duration: 42, difficulty: 'Sulit',   density: 0.78, color: 'hijau' },
+  { id: 8,  name: 'Arus Samudra',    bpm: 145, duration: 45, difficulty: 'Sulit',   density: 0.82, color: 'neon' },
+  { id: 9,  name: 'Tarian Jari',     bpm: 155, duration: 50, difficulty: 'Sulit',   density: 0.88, color: 'merah' },
+  { id: 10, name: 'Badai Neons',     bpm: 162, duration: 52, difficulty: 'Ekstrem', density: 0.90, color: 'emas' },
+  { id: 11, name: 'Denyut Listrik',  bpm: 168, duration: 54, difficulty: 'Ekstrem', density: 0.92, color: 'hijau' },
+  { id: 12, name: 'Kaca Pecah',     bpm: 175, duration: 56, difficulty: 'Ekstrem', density: 0.94, color: 'neon' },
+  { id: 13, name: 'Lubang Hitam',   bpm: 182, duration: 58, difficulty: 'Brutal',  density: 0.95, color: 'merah' },
+  { id: 14, name: 'Singularitas',   bpm: 190, duration: 60, difficulty: 'Brutal',  density: 0.97, color: 'emas' },
+  { id: 15, name: 'Nirwana Jari',   bpm: 200, duration: 65, difficulty: 'Master',  density: 0.99, color: 'merah' },
 ];
 
 /* ===== Konstanta ===== */

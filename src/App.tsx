@@ -607,7 +607,7 @@ export default function App() {
               <div className="text-xs font-bold uppercase tracking-wider opacity-50 mt-1">Jalur</div>
             </div>
             <div>
-              <div className="font-display font-bold text-5xl text-emas">9</div>
+              <div className="font-display font-bold text-5xl text-emas">15</div>
               <div className="text-xs font-bold uppercase tracking-wider opacity-50 mt-1">Level</div>
             </div>
             <div>
