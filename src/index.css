@@ -133,6 +133,47 @@
 .result-star { width: 54px; height: 54px; transition: transform .3s ease; }
 .result-star.lit { animation: starPop .5s ease; }
 
+/* ===== Scrollbar Kustom TariJari ===== */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Latar belakang jalur scrollbar */
+::-webkit-scrollbar-track {
+  background: #12101A;
+  border-left: 1px solid rgba(245,230,200,0.05);
+}
+
+/* Batang scrollbar (drag) */
+::-webkit-scrollbar-thumb {
+  background: rgba(245,230,200,0.2);
+  border-radius: 10px;
+  border: 2px solid #12101A;
+}
+
+/* Batang scrollbar saat di-hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(15,255,207,0.45);
+}
+
+/* Batang scrollbar saat sedang ditarik/diklik */
+::-webkit-scrollbar-thumb:active {
+  background: #0FFFCF;
+  box-shadow: 0 0 8px rgba(15,255,207,0.4);
+}
+
+/* Ujung atas dan bawah jalur (biar gak kotak) */
+::-webkit-scrollbar-corner {
+  background: #12101A;
+}
+
+/* ===== Untuk Firefox ===== */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(245,230,200,0.2) #12101A;
+}
+
 /* ===== Tombol sentuh jalur ===== */
 .lane-touch { display: none; }
 @media (hover: none) { .lane-touch { display: grid; } }

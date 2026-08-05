@@ -302,7 +302,7 @@ export default function App() {
         <section className="relative z-10 max-w-5xl mx-auto px-5 pt-4 pb-10 text-center">
           <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-emas border-[3px] border-cream rounded-full font-display font-semibold text-sm shadow-[3px_3px_0_rgba(245,230,200,0.25)] text-dark mb-6">
             <span className="w-2 h-2 rounded-full bg-merah" />
-            Ritme kasual · sesi 60 detik
+            Ritme kasual · sesi 60 detik <u className=''>v1.2</u>
           </span>
           <div className="eq mx-auto mb-5">
             <span style={{ background: '#FF3366', animationDelay: '-.2s' }} />
