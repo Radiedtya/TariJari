@@ -246,9 +246,14 @@ export class GameEngine {
       const d = Math.abs(n.time - this.elapsed);
       if (d < dist) { dist = d; nearest = n; }
     }
+    
+    // Cek apakah ada nada yang valid untuk ditekan
     if (nearest && dist < GOOD_WIN) {
       nearest.hit = true;
       this.registerHit(lane, dist < PERFECT_WIN);
+    } else {
+      // Hukuman: Tombol ditekan tapi tidak ada nada (Spam / Tekan kosong)
+      this.registerMiss(lane);
     }
   }
 
